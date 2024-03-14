@@ -1,11 +1,11 @@
-json para pruebas en POSTMAN
+##json para pruebas en POSTMAN
 {
   "monto": 120.00,
   "monedaOrigen": "PER",
   "monedaDestino": "USA"
 }
 
-QUERY PARA TIPO DE CAMBIO
+##QUERY PARA TIPO DE CAMBIO
 
 INSERT INTO TIPOCAMBIO VALUES (1, 'USA', 3.8); 
 INSERT INTO TIPOCAMBIO VALUES (2, 'EUR', 2.8); 
