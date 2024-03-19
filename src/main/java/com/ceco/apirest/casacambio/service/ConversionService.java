@@ -25,6 +25,7 @@ public class ConversionService {
         Conversion conversion = new Conversion(null,request.getMonto(),request.getMonedaOrigen(),request.getMonedaDestino());
         request.setTipoCambio(tipoCambio);
         conversionRepository.save(conversion);
+        request.setId(conversion.getId());
         return montoConvertido;
     }
 
